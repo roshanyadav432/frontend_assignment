@@ -86,7 +86,7 @@ function ProductList() {
                 key={item.id}
               >
                 <img
-                  className="w-1/2 w-48 h-48 object-cover "
+                  className="w-1/2 w-48 h-48 object-cover"
                   src={item.image}
                   alt="Sunset in the mountains"
                 />
