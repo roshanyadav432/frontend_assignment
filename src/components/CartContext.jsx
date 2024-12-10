@@ -26,15 +26,12 @@ function CartContextProvider({ children }) {
     }
   };
 
-  //function remove from cart:
+  //function to remove from cart:
   const removeFromCart = (id) => {
-    console.log(id, "yahi id aa rahi hai");
-
     const newArray = cartData.filter((item) => {
       console.log(item.id, "item ke id's");
       return item.id !== id;
     });
-    console.log("hey i am remove function newarray", newArray);
 
     setCartData(newArray);
   };
@@ -47,7 +44,6 @@ function CartContextProvider({ children }) {
         return item;
       }
     });
-    // console.log(newArray, "updated cart");
     setCartData(newArray);
   };
 

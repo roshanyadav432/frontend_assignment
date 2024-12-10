@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useContext, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { CartContext } from "./cartContext";
+import { CartContext } from "./CartContext";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Header from "./Header";
